@@ -1,0 +1,17 @@
+{
+    "cucumberautocomplete.pages": {
+        "users": "./data/users.js",
+        "_home": "./tests/pages/_home.page.js",
+        "_login": "./tests/pages/_login.page.js",
+        "_epargnant": "./tests/pages/_epargnant.page.js"
+    },
+    "cucumberautocomplete.steps": [
+        "./steps.js"
+    ],
+    "cucumberautocomplete.customParameters": [
+        {
+            "parameter": "(.*)",
+            "value": "{ab}"
+        }
+    ]
+}
