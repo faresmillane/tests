@@ -1,9 +1,14 @@
 module.exports = {
-    url: "/",
+    url: "/accueil",
     locators: {
+        _header:{
+            web:{
+                css: "#root > div > div > div:nth-child(3) > div > div > div.css-1dbjc4n.r-13awgt0 > div > div.css-1dbjc4n.r-1p0dtai.r-6koalj.r-1d2f490.r-12vffkv.r-u8s1d.r-zchlnj.r-ipm5af > div.css-1dbjc4n.r-13awgt0.r-12vffkv > div > div > div > div.css-1dbjc4n.r-13awgt0 > div > div > div > div > div > div > div > div.css-1dbjc4n.r-1kihuf0.r-2llsf.r-13qz1uu > div.css-1dbjc4n.r-14lw9ot.r-13awgt0.r-eqz5dr.r-2llsf > div > div.css-1dbjc4n.r-14lw9ot"
+            }
+        },
         _accept_cookies:{
             mob:{
-                id: "",
+                id: "accept-recommended-btn-handler",
                 xpath:{
                     android: "",
                     ios: ""
@@ -14,96 +19,6 @@ module.exports = {
                 xpath: "",
                 class: ""
             },
-        },
-        _header:{
-            mob:{
-                id: "",
-                xpath:{
-                    android: "",
-                    ios: ""
-                }
-            },
-            web: {
-                id: "bnp-hub-header",
-                xpath: "",
-                class: ""
-            },
-        },
-        _section:{
-            mob:{
-                id: "",
-                xpath:{
-                    android: "",
-                    ios: ""
-                }
-            },
-            web: {
-                id: "bnp-hub-banner",
-                xpath: "",
-                class: ""
-            },
-        },
-        _emprunteur_section:{
-            mob:{
-                id: "",
-                xpath:{
-                    android: "",
-                    ios: ""
-                }
-            },
-            web: {
-                id: "test",
-                xpath: "//*[@id='accept-recommended-btn-handler']",
-                class: "2"
-            },
-        },
-        _presentation:{
-            mob:{
-                id: "",
-                xpath:{
-                    android: "",
-                    ios: ""
-                }
-            },
-            web: {
-                class: "bnp-video-button bnp-modal-holder bnp-modal-framed"
-            }
-        },
-        _je_suis_epargnant: {
-            mob:{
-                id: "",
-                xpath:{
-                    android: "",
-                    ios: ""
-                }
-            },
-            web: {
-                xpath: "//*[@id='bnp-hub-segment']/a[1]"
-            }
-        },
-        _cgu: {
-            mob:{
-                id: "",
-                xpath:{
-                    android: "",
-                    ios: ""
-                }
-            },
-            web: {
-                class: "QS5gu sy4vM"
-            }
-        },
-        _consentment: {
-            mob:{
-                id: "",
-                xpath:{
-                    android: "",
-                    ios: ""
-                }
-            },
-            web: {
-                id: "ot-category-title"
-            }
         }
     }
 }

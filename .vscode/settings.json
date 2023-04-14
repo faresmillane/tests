@@ -3,7 +3,9 @@
         "users": "./data/users.js",
         "_home": "./tests/pages/_home.page.js",
         "_login": "./tests/pages/_login.page.js",
-        "_epargnant": "./tests/pages/_epargnant.page.js"
+        "_epargnant": "./tests/pages/_epargnant.page.js",
+        "_choix_entreprise": "./tests/pages/_choix_entreprise.page.js",
+        "_arbitrage": "./tests/pages/_arbitrage.page.js"
     },
     "cucumberautocomplete.steps": [
         "./steps.js"
